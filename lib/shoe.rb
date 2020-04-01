@@ -15,7 +15,6 @@ class Shoe
     
   end
   
-  def 
   
 
   def cobble
