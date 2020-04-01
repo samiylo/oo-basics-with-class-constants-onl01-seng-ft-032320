@@ -10,7 +10,6 @@ class Shoe
     if item == @brand
       @brand
     else
-      
       BRANDS << @brand
     end
 
