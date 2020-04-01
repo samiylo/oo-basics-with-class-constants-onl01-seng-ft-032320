@@ -6,9 +6,17 @@ class Shoe
   
   def initialize(input_brand)
     
-    @brand = input_brand
-    @new_input = @brand.uniq
-    BRANDS << @new_input
+    BRANDS.each do item 
+    
+      if input_brand == item 
+        puts"Nothing" 
+      
+      else
+        BRANDS << input_brand
+      end
+    end
+      
+    
     
   end
   
