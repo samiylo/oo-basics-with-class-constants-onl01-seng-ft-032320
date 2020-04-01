@@ -10,8 +10,8 @@ class Shoe
     if input_brand.length < 2 
       BRANDS << input_brand
     else
-    BRANDS << input_brand.uniq
-  end
+      BRANDS << input_brand.uniq
+    end
     
   end
   
