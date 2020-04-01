@@ -8,11 +8,12 @@ class Shoe
     @brand = brand
     BRANDS.each do item 
       if item == @brand 
-    else
+      
+      else
       
         BRANDS << brand 
+      end
     end
-  end
 
   def cobble
     self.condition = "new"
