@@ -6,7 +6,13 @@ class Shoe
   
   def initialize(brand)
     @brand = brand
-    BRANDS << brand 
+    BRANDS.each do item 
+      if item == @brand 
+        
+      else
+      
+      BRANDS << brand 
+    end
   end
 
   def cobble
