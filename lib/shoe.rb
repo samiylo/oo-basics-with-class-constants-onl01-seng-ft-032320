@@ -7,13 +7,12 @@ class Shoe
   def initialize(brand)
     @brand = brand
     BRANDS.each do item 
-      if item == @brand 
+    if item == @brand
       
-      else
+    else
       
-        BRANDS << brand 
-      end
-    
+      BRANDS << brand
+    end
 
   def cobble
     self.condition = "new"
