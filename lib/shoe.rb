@@ -7,18 +7,12 @@ class Shoe
   def initialize(input_brand)
     @brand = input_brand
     
-    BRANDS.each do item 
-    
-    
-      if @brand == item 
-        puts"Nothing" 
-      
-      else
-        BRANDS << @brand
-      end
+    if BRANDS.length > 3
+      puts"Nothing"
+    else
+      BRANDS << @brand
     end
       
-    
     
   end
   
