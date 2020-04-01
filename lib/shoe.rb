@@ -8,6 +8,7 @@ class Shoe
     
     @brand = input_brand 
     BRANDS << @brand
+    
   end
   
   def 
