@@ -8,10 +8,10 @@ class Shoe
     @brand = brand
     BRANDS.each do item 
     if item == @brand
-      
+      @brand
     else
       
-      BRANDS << brand
+      BRANDS << @brand
     end
 
   def cobble
