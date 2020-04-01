@@ -6,12 +6,6 @@ class Shoe
   
   def initialize(brand)
     @brand = brand
-    BRANDS.each do item 
-    if item == @brand
-      @brand
-    else
-      BRANDS << @brand
-    end
   end
   
 
