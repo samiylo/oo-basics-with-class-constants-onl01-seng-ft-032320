@@ -8,8 +8,9 @@ class Shoe
     @brand = input_brand
     
     BRANDS.each do item 
+    @item = item
     
-      if @brand == item 
+      if @brand == @item 
         puts"Nothing" 
       
       else
