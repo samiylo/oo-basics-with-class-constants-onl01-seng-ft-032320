@@ -5,14 +5,15 @@ class Shoe
   BRANDS = []
   
   def initialize(input_brand)
+    @brand = input_brand
     
     BRANDS.each do item 
     
-      if input_brand == item 
+      if @brand == item 
         puts"Nothing" 
       
       else
-        BRANDS << input_brand
+        BRANDS << @brand
       end
     end
       
