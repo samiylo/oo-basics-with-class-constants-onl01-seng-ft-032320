@@ -8,9 +8,9 @@ class Shoe
     
     @brand = input_brand
     if input_brand.length == 0
-      BRANDS << input_brand
+      BRANDS << @brand 
     else
-      BRANDS << input_brand.uniq
+      BRANDS << @brand.uniq
     end
     
   end
