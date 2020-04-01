@@ -7,7 +7,7 @@ class Shoe
   def initialize(input_brand)
     @brand = input_brand
     
-    if BRANDS.length > 3
+    if BRANDS.length  3
       puts"Nothing"
     else
       BRANDS << @brand
